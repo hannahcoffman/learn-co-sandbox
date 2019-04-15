@@ -1,0 +1,14 @@
+API 
+
+frontend --> kicks off data request --> backend --> taks to the DB --> gets info from it --> returns back to the frontend 
+
+APIs are really just a way to get data from a database 
+
+- 1. we don't want direct access to a database because of sensitive data
+- 2. connections to a database are very sensitive
+- 3. backends are middlemen for frontend and DB
+
+Types of db
+MongoDB 
+PostgreSQL
+

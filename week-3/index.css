@@ -1,0 +1,19 @@
+.section-class{
+  background:grey;
+  height:400px;
+  margin-bottom:8px;
+}
+/*  top and bottom left and right only one of each pair can be used */ 
+.class-1 {
+  background:blue;
+  position:relative;
+  top:50px;
+  right:50px;
+}
+.class-2 {
+  /* absolute takes the starting position as the edge of your screen */ 
+  position:absolute;
+  top:0px;
+  background:purple;
+}
+/* fixed is stay on the position where it's always been and follow with scrolling */ 

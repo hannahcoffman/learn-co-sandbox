@@ -1,0 +1,16 @@
+DOM - document object model 
+
+1. window 
+2. document
+3. DOM element/node 
+
+In inspect - console is where you can write code and have it run on your site 
+
+document.  (. is like saying give me one thing out of those containers) 
+document.querySelector (find me the thing called this  inside the doc) 
+document.querySelector ('#pls-find-me') PRESS ENTER 
+
+get stuff in console page:
+querySelector, querySelectorAll, getElementById 
+called CamelCasing 
+

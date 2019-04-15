@@ -1,0 +1,23 @@
+#grey-paragraph {
+  color:grey;
+}
+
+p{
+  color:yellow;
+  background-color:purple;
+  font-family: 'Montserrat', 'Sans-Serif', 'Arial', 'Times New Roman';
+}
+h2 { 
+  color:blanchedalmond;
+
+.red-paragraph {
+  color:orange;
+}
+
+/* 1. Inline styles trump everything */ 
+/* 2. For <style> tags and <link> whaetver comes last will be applied */
+/* 3. CSS is selective -- if one thing is not specified (like background color) it's going to apply background color from the other places that have it */
+/* use !important to overwrite anything */
+/* tags are bottom > class trumps the tag selector */
+/* classes are next - trump selector */ 
+/* ids trump classes - should only be one to a page */

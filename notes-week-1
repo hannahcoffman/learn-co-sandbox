@@ -1,0 +1,10 @@
+Internet vs. World Wide Web 
+- Internet - a bunch of wires - infrastructure that holds connections together, servers 
+- World Wide Web - standard of how to get and send pages 
+  -Defines the clients 
+  - Status codes
+      - 200 is a good signal, 401-404 is not found and forbidden, 500 site is down server error 
+-Clients and servers 
+  clients do gets (customers in a restaurant) and do requests 
+  Sever gives back a response 
+  

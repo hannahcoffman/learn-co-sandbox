@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+  <head>
+    <style>
+   <!--3rd way of writing CSS in seperate files - best way-->
+    <!--link to and what is relation to this?-->
+    <!-- style tag-->
+    <style>
+    /* h2, h1 multiple selector 
+    /* arcticle > p is the child selector 
+    /* article_h2 is called a descent selector 
+        /* <article><h2></h2></article>
+    /* * is universal selector 
+    /* underscore descendent 
+    /* p tag introduction - paired selector 
+    /* full CSS format */
+    /* 1. selector -> p */
+    /* selects the tags to apply styles to */ 
+    /* 2. rule name -> color */
+    /* 3. value -> red */ 
+      p { 
+        color:red;
+        font-size: 40px;
+        background-color: green;
+      }
+    </style>
+     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+     <link href=".//index.css" rel="stylesheet">
+     
+    <p class="red-paragraph" id="grey-paragraph">Red</p>
+  </head>
+  <body>
+  
+    <form>
+      <!--inline format-->
+      <!-- hard to overwrite-->
+      <!-- color is the rule and red is the value -->
+      <p style="color:red">Hi I'm a paragraph</p>
+      <p>I should be red</p>
+      <p style="color:blue">BLUE</p></p>
+      
+      
+      <!-- label describes the input -->
+      <!-- for is for screenreaders and it links to the id in an input -->
+      <label for="firstname">First name:</label>
+      <input id="firstname" type="text">
+      
+      <label for="lastname">Last name:</label>
+      <input id="lastname" type="text" placeholder="last name goes here...">
+      
+      <label for="cell-phone-number">Cell phone:</label>
+      <input id="cell-phone-number" type="tel">
+    </form>
+    
+    
+    <!-- semantics is meaning -->
+    <header></header>
+    <nav></nav>
+    <main>
+      <!-- changes from page to page-->
+      <section>
+        <! -- related pieces of content that are tied together -->
+         <article><!-- one piece of content in that section-->
+         </article>
+         <arricle>another block of content</arricle>
+      <aside><!-- to the side of the section--></aside>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
+</html>
+
